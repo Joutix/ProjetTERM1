@@ -29,7 +29,7 @@ public class onClickObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.One)) //Changer le bouton (A ajouter sinon OVRInput.GetDown(OVRInput.Button.
+        if (OVRInput.GetDown(OVRInput.RawButton.Back)) //Changer le bouton (A ajouter sinon OVRInput.GetDown(OVRInput.Button.
         { // if left button pressed...
             Ray ray = GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;

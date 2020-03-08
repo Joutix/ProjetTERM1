@@ -1,0 +1,17 @@
+ManifestFileVersion: 0
+CRC: 4098655828
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6615dde22fa20cdea7fa4f44232411c6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2ed26e3ad9f6be9c24f85f5f5b54339d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Materials/ADG_Textures/walls_vol1/wall17/wall17_Ambient_Occlusion.tga
+- Assets/Materials/ADG_Textures/walls_vol1/wall17/wall17_Normal.tga
+Dependencies: []
