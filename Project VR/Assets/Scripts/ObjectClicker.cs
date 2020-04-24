@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectClicker : MonoBehaviour
 {
-    public GameObject gameObject;
+    //public GameObject gameObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +19,20 @@ public class ObjectClicker : MonoBehaviour
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            if(Physics.Raycast(ray, out hit, 100.0f))
+            if(Physics.Raycast(ray, out hit))
             {
-                if(hit.transform != null)
+                BoxCollider bc = hit.collider as BoxCollider;
+                if(bc != null)
                 {
-                    gameObject.SetActive(true);
+                    if (bc.transform.GetChild(0).gameObject.activeSelf)
+                    {
+                        bc.transform.GetChild(0).gameObject.SetActive(false);
+                    }
+                    else
+                    {
+                        bc.transform.GetChild(0).gameObject.SetActive(true);
+                    }
+                    
                 }
             }
         }
