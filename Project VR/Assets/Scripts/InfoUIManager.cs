@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class InfoUIManager : MonoBehaviour
 {
     public static InfoUIManager instance;
+
     public TextMeshProUGUI tmProName;
     public Image image;
     public TextMeshProUGUI tmProDescription;
