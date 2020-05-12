@@ -8,4 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ascenceur.unity
     guid: a5094a962ec483a47a5396337f3f2058
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 77843aa42bcda0f409920486d82880fd,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b185942b808f4524493508753d167cb9,
+      type: 2}
