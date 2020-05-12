@@ -1,0 +1,54 @@
+ManifestFileVersion: 0
+CRC: 1491084077
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c8d26721ffe008a54033affa7bcef23e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 8bf6a5bf07d46bdacb4e0dceff7ad296
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 339d9274d7efa3e4294bc9219d635318, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 46376208a6c1f0242989de0088716360, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f35cbca854c5d854cad25525776040f7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 546063e2731612b44a3fdd261852fdc4, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/PR_Reticule.prefab
+- Assets/Prefabs/PR_PlayerEvents.prefab
+- Assets/Prefabs/PR_Pointer.prefab
+- Assets/Oculus/VR/Prefabs/OVRCameraRig.prefab
+- Assets/Prefabs/Character.prefab
+Dependencies: []

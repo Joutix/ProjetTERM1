@@ -1,0 +1,93 @@
+ManifestFileVersion: 0
+CRC: 1750145491
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 19b97192432469c6be2484c32216798b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a6c853ef2d1b0f38f375d88adb89fe89
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: df9f338034892c44ebb62d97894772f1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d02e3e80d18d8d948932b9f75155b71c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7e933e81d3c20c74ea6fdc708a67e3a5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b010523a3e437740b2c38a37c6da60e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a67081a33eccefd4f9522e14127181c1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 339d9274d7efa3e4294bc9219d635318, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5178bc8574ce2bf4388e787a2e2af326, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 46376208a6c1f0242989de0088716360, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f35cbca854c5d854cad25525776040f7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 506d45dc5f3cfba4cb059725ac7dd859, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bc44482ae0d887b47afde93cfabaa211, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6ff3688de38566f44be707897e8b0b9c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 546063e2731612b44a3fdd261852fdc4, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 143
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Scenes/Ascenceur.unity
+Dependencies:
+- C:/Users/Joutix/Documents/TestTest/ProjetTERM1/Project VR/OVRAssetBundles/OVRMasterBundle/asset_prefab0
+- C:/Users/Joutix/Documents/TestTest/ProjetTERM1/Project VR/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Users/Joutix/Documents/TestTest/ProjetTERM1/Project VR/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/Joutix/Documents/TestTest/ProjetTERM1/Project VR/OVRAssetBundles/OVRMasterBundle/asset_mp30
+- C:/Users/Joutix/Documents/TestTest/ProjetTERM1/Project VR/OVRAssetBundles/OVRMasterBundle/asset_fbx0

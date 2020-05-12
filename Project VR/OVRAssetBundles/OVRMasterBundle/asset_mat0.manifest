@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 1534703556
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 30e26448136859a2a428753440db80f2
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21c99c86a43ad817b2cb7f65458ae090
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Elevator Model/Materials/metal_D.mat
+- Assets/Elevator Model/Materials/stone_0104_c.mat
+- Assets/Materials/ground.mat
+- Assets/Elevator Model/Materials/ButtonRed.mat
+- Assets/Elevator Model/Materials/brushed_metal_D.mat
+Dependencies:
+- C:/Users/Joutix/Documents/TestTest/ProjetTERM1/Project VR/OVRAssetBundles/OVRMasterBundle/asset_png0

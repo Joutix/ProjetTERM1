@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1160642083
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6345423b4ffad7e9c82c978979e1cab4
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2ed26e3ad9f6be9c24f85f5f5b54339d
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Reticles/PickUpHand.png
+- Assets/Reticles/Reticle1.png
+- Assets/Elevator Model/Textures/metal_D.png
+- Assets/Elevator Model/Textures/stone_0104_c.png
+- Assets/Elevator Model/Textures/brushed_metal_D.png
+- Assets/Elevator Model/Textures/metal_N.png
+- Assets/Elevator Model/Textures/brushed_metal_N.png
+Dependencies: []
