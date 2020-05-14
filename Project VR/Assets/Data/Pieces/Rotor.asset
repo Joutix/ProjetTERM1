@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ec5f0fdf658d94ba81c1fa0899ee48, type: 3}
   m_Name: Rotor
   m_EditorClassIdentifier: 
-  sub_parts: []
-  image: {fileID: 21300000, guid: eb5f73f337ec6ec4f809580c0997fbb3, type: 3}
+  sprite: {fileID: 21300000, guid: eb5f73f337ec6ec4f809580c0997fbb3, type: 3}
   description: '<size=50>Place Holder Descriotion :
 
     </size>Lorem ipsum dolor
@@ -44,3 +43,10 @@ MonoBehaviour:
     aliquam nibh, elementum bibendum nunc tortor a lectus. Phasellus consectetur
     interdum dictum. Cras neque nisi, fermentum sed sem sit amet, vehicula dignissim
     neque.Nam laoreet varius orci eget egestas. Nunc vitae dictum nibh.'
+  jobs:
+  - {fileID: 11400000, guid: 7187d58b2d8ae0c47b3f958c20762ed0, type: 2}
+  - {fileID: 11400000, guid: ae1144f4ec173cb4fb2b1423a24aed32, type: 2}
+  - {fileID: 11400000, guid: 7187d58b2d8ae0c47b3f958c20762ed0, type: 2}
+  - {fileID: 11400000, guid: facd7159303bc194e9cd2c618741964c, type: 2}
+  - {fileID: 11400000, guid: 7187d58b2d8ae0c47b3f958c20762ed0, type: 2}
+  sub_parts: []
