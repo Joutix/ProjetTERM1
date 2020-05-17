@@ -43,12 +43,16 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKeyDown("i"))
         {
-            if(UIManager.instance.IsActivated())
+            if (UIManager.instance.IsActivated()){
                 UIManager.instance.DesactivateUI();
+                CrosshairGUI.instance.m_ShowCursor = false;
+            }
             else
+            {
                 UIManager.instance.ActivateUI();
+                CrosshairGUI.instance.m_ShowCursor = true;
+            }
         }
-
 
         if (UIManager.instance.IsActivated()) return;
 

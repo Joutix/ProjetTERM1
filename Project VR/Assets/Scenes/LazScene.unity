@@ -128,45 +128,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1369243698, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1369243698, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1369243698, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1369243698, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1369243700, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 206232936234807112, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 206232936234807112, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 206232936234807112, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 206232936234807112, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2000425180998642164, guid: 0737e4aa8bca5cd4285ffd2ec72a2e62,
         type: 3}
