@@ -46,3 +46,5 @@ MonoBehaviour:
   jobs:
   - {fileID: 11400000, guid: 7187d58b2d8ae0c47b3f958c20762ed0, type: 2}
   sub_parts: []
+  ressources:
+  - {fileID: 11400000, guid: e2b53c593d3da924c9b4c144e1d93bd2, type: 2}

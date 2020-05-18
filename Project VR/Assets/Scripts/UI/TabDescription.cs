@@ -8,16 +8,6 @@ public class TabDescription : Tab
     public Image image;
     public TextMeshProUGUI tmProDescription;
 
-    public override void Activate()
-    {
-        gameObject.SetActive(true);
-    }
-
-    public override void Desactivate()
-    {
-        gameObject.SetActive(false);
-    }
-
 
     public override void UpdateContent(Piece piece)
     {

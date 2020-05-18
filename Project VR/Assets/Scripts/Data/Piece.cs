@@ -11,4 +11,5 @@ public class Piece : ScriptableObject
     public string description;
     public Job[] jobs;
     public string[] sub_parts;
+    public Ressource[] ressources;
 }

@@ -4,19 +4,9 @@ using UnityEngine;
 public class TabJobs : Tab
 {
     public GameObject jobPrefab;
-    public Transform JobsParent;
+    public Transform jobsParent;
 
     List<JobUI> jobsUIs = new List<JobUI>();
-
-    public override void Activate()
-    {
-        gameObject.SetActive(true);
-    }
-
-    public override void Desactivate()
-    {
-        gameObject.SetActive(false);
-    }
 
     public override void UpdateContent(Piece piece)
     {
@@ -39,7 +29,7 @@ public class TabJobs : Tab
 
     void AddJob(Job job)
     {
-        JobUI jobUI = Instantiate<GameObject>(jobPrefab, JobsParent).GetComponent<JobUI>();
+        JobUI jobUI = Instantiate<GameObject>(jobPrefab, jobsParent).GetComponent<JobUI>();
         jobsUIs.Add(jobUI);
         jobUI.UpdateContent(job);
     }
