@@ -19,8 +19,9 @@ public class ElevatorController : MonoBehaviour {
 	
 	[Tooltip("Elevator floors.")]
 	public Transform[] ElevatorFloors;
-	
-	public m_ElevatorSounds ElevatorSounds =  new m_ElevatorSounds();	
+	public InteractibleObject[] interactibleObjects;
+
+    public m_ElevatorSounds ElevatorSounds =  new m_ElevatorSounds();	
 	
 	[Tooltip("Set elevator position to floor.")]
 	public int CurrentFloor = 0;
@@ -36,12 +37,12 @@ public class ElevatorController : MonoBehaviour {
 	private bool isMoved = false;
 	
 	void Start ()
-	{
-		
+	{		
 		this.GetComponent<AudioSource>().Stop();
-	}
-	
-	public void ElevatorGO (string ElevatorDirection) {
+        UIManager.instance.UpdateContent(interactibleObjects[floorNumber].piece);
+    }
+
+    public void ElevatorGO (string ElevatorDirection) {
 		elevatorDirection = ElevatorDirection;
 		FloorNumber();
 		soundplayed = false;
@@ -54,10 +55,12 @@ public class ElevatorController : MonoBehaviour {
 		if(elevatorDirection == "ElevatorUp" && !ElevatorMoving && !ElevatorMax)
 		{
 			floorNumber += 1;
-		}
+            UIManager.instance.UpdateContent(interactibleObjects[floorNumber].piece);
+        }
 		if(elevatorDirection == "ElevatorDown" && !ElevatorMoving && !ElevatorMin)
 		{
 			floorNumber -= 1;
+            UIManager.instance.UpdateContent(interactibleObjects[floorNumber].piece);
 		}		
 	}
 	

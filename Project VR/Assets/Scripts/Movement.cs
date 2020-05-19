@@ -14,6 +14,7 @@ public class Movement : MonoBehaviour
     //Update is called once per frame
     void FixedUpdate()
     {
+        if (UIManager.instance.IsActivated()) return;
 
         if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey("z"))
         {
@@ -40,6 +41,21 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown("i"))
+        {
+            if (UIManager.instance.IsActivated()){
+                UIManager.instance.DesactivateUI();
+                CrosshairGUI.instance.m_ShowCursor = false;
+            }
+            else
+            {
+                UIManager.instance.ActivateUI();
+                CrosshairGUI.instance.m_ShowCursor = true;
+            }
+        }
+
+        if (UIManager.instance.IsActivated()) return;
+
         rotX -= Input.GetAxis("Mouse Y") * Time.deltaTime * rotationSpeed;
         rotY += Input.GetAxis("Mouse X") * Time.deltaTime * rotationSpeed;
         if (rotX < -90)

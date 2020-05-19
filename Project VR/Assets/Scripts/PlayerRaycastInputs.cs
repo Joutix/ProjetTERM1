@@ -18,14 +18,13 @@ public class PlayerRaycastInputs : MonoBehaviour
             {
 
                obj = coll.GetComponent<InteractibleObject>();
-                if (obj != null)
-                {
-                    obj.Select();
-                    
-                }
             }
         }
-        if (lastHitObject != null && lastHitObject != obj) lastHitObject.UnSelect();
+        if (lastHitObject != obj)
+        {
+            if (lastHitObject != null) lastHitObject.UnSelect();
+            if (obj != null) obj.Select();
+        }
         lastHitObject = obj;
     }
 }

@@ -227,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3501263095848471109}
   m_Layer: 0
-  m_Name: Objet
+  m_Name: Rotor 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d0e27d28aa6414b9f45ffd69cada4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  info: {fileID: 11400000, guid: a2fc1fad29167b94286641c59edcdb4a, type: 2}
+  piece: {fileID: 11400000, guid: 725bc316d4c7ecb4ba2816ed3a51d7ed, type: 2}
   worldTMProName: {fileID: 1369243698}
   traceLineToTextParent: {fileID: 6399452691562364524}
 --- !u!1 &5125170620562014324
