@@ -10,6 +10,5 @@ public class Piece : ScriptableObject
     [TextArea(3, 10)]
     public string description;
     public Job[] jobs;
-    public string[] sub_parts;
     public Ressource[] ressources;
 }
