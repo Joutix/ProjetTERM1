@@ -123,7 +123,9 @@ public class Pointer : MonoBehaviour
 
         ElevatorButton interactable = m_currentObject.GetComponent<ElevatorButton>();
         TabButton tabButton = m_currentObject.GetComponent<TabButton>();
+        RessourceUI ressourceUI = m_currentObject.GetComponent<RessourceUI>();
         interactable?.SendCall(m_currentObject.tag);
         tabButton?.ActivateTab();
+        ressourceUI?.OpenRessource();
     }
 }
