@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2bee5d559a583f4490b578b032f713a, type: 3}
+  m_Name: "M\xE9canicien avion"
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 648a5944533bb3c4dbc357a2bf6a6ab6, type: 3}
+  description: "Le m\xE9canicien avion ou m\xE9canicien de maintenance a\xE9ronautique
+    assure la maintenance quotidienne de l\u2019ensemble de l\u2019appareil avant
+    et apr\xE8s le vol. Il est g\xE9n\xE9ralement sp\xE9cialis\xE9 dans un domaine
+    particulier. Lors d\u2019une r\xE9vision majeure programm\xE9e, il d\xE9shabille
+    compl\xE8tement l\u2019avion. "

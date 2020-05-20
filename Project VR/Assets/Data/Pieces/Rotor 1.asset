@@ -13,39 +13,16 @@ MonoBehaviour:
   m_Name: Rotor 1
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: eb5f73f337ec6ec4f809580c0997fbb3, type: 3}
-  description: '<size=50>Place Holder Descriotion :
-
-    </size>Lorem ipsum dolor
-    sit amet, consectetur adipiscing elit. Praesent gravida laoreet dolor vitae laoreet.
-    Vivamus porttitor, felis non ornare ultricies, lacus lorem semper enim, vel molestie
-    quam diam id elit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-    Nulla sed auctor quam, a vulputate lectus. Nullam sit amet malesuada nisi. Vestibulum
-    dignissim elementum ante, quis bibendum mi interdum eu. Quisque accumsan mattis
-    ipsum, eget pretium ex scelerisque quis. Vestibulum sagittis velit arcu, fermentum
-    dignissim lorem rhoncus id. Ut fermentum non velit ultrices blandit. Vestibulum
-    at dui eu sem scelerisque sagittis ut at nunc. Maecenas in eros ut est ornare
-    pellentesque sed vel nulla. Donec scelerisque odio eget ex molestie ultrices.
-    Ut nec risus lacus. Nullam at lectus quam.
-
-    Nulla facilisi.Morbi lobortis
-    eget purus ut blandit.Suspendisse vulputate id tellus imperdiet sodales. Mauris
-    vehicula neque at odio facilisis, fringilla mattis metus volutpat. Nam ultricies
-    erat volutpat mi ornare, ut finibus turpis pretium. Cras ullamcorper bibendum
-    varius. Vestibulum tempor tortor rhoncus, tincidunt justo luctus, mattis enim.
-    In hac habitasse platea dictumst.Suspendisse potenti. Phasellus sit amet auctor
-    enim.Donec non convallis ligula. Praesent tincidunt libero nulla, sit amet accumsan
-    elit tincidunt et. Integer rutrum gravida tortor, dictum fermentum lacus mollis
-    bibendum.
-
-    Integer vel elementum tortor. Vestibulum in eleifend eros. Vivamus
-    at metus erat. Donec quis tincidunt odio. Sed cursus eleifend mauris, ut faucibus
-    nisl tempus nec.Quisque cursus, nisl sit amet eleifend consequat, libero lectus
-    aliquam nibh, elementum bibendum nunc tortor a lectus. Phasellus consectetur
-    interdum dictum. Cras neque nisi, fermentum sed sem sit amet, vehicula dignissim
-    neque.Nam laoreet varius orci eget egestas. Nunc vitae dictum nibh.'
+  description: "Le terme rotor est utilis\xE9 dans plusieurs domaines. Le plus souvent,
+    il d\xE9signe la partie en rotation d'une machine, m\xE9canique ou \xE9lectrique,
+    qui interagit avec la partie fixe (statique) appel\xE9e le \xAB stator \xBB.
+    Cependant, le terme se retrouve dans divers autres concepts de physique.\r\n\tDans
+    un h\xE9lico, on distingue :\r\n\t- le rotor principal\r\n\t- le rotor anticouple\r\n\t-
+    le rotor contrarotatif\r\n"
   jobs:
-  - {fileID: 11400000, guid: 7187d58b2d8ae0c47b3f958c20762ed0, type: 2}
-  - {fileID: 11400000, guid: facd7159303bc194e9cd2c618741964c, type: 2}
-  sub_parts: []
+  - {fileID: 11400000, guid: f23868a9f14ad69488ceabcc8e43c378, type: 2}
+  - {fileID: 11400000, guid: 1dfe02735ef0702439c31fdfa837fc80, type: 2}
   ressources:
-  - {fileID: 11400000, guid: e2b53c593d3da924c9b4c144e1d93bd2, type: 2}
+  - {fileID: 11400000, guid: 2bcc8609df55f5f45a9d671156e16b0f, type: 2}
+  - {fileID: 11400000, guid: a0ca64812cdf25f478254b99a1f33f94, type: 2}
+  - {fileID: 11400000, guid: 446e0ae5163de1a4e933007a92efd1db, type: 2}
