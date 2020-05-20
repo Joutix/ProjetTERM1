@@ -122,6 +122,8 @@ public class Pointer : MonoBehaviour
         }
 
         ElevatorButton interactable = m_currentObject.GetComponent<ElevatorButton>();
-        interactable.SendCall(m_currentObject.tag);
+        TabButton tabButton = m_currentObject.GetComponent<TabButton>();
+        interactable?.SendCall(m_currentObject.tag);
+        tabButton?.ActivateTab();
     }
 }

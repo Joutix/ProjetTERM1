@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 public class InteractManager : MonoBehaviour {
 	
-	public float PickupRange = 3; 
+	public float PickupRange = 10; 
 	public string UseButton = "Use";
 	
 	private GameObject playerCam;
