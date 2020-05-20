@@ -1797,6 +1797,11 @@ PrefabInstance:
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
+    - target: {fileID: 2569127595152261780, guid: dad420e06c6231748b7dff40f4e836d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2753321035137441664, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
       propertyPath: targetTransform
@@ -1807,6 +1812,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 400745170}
+    - target: {fileID: 3058529495772298166, guid: dad420e06c6231748b7dff40f4e836d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3304936953356181936, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -1825,7 +1835,7 @@ PrefabInstance:
     - target: {fileID: 5073804172273092275, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5268385583253288683, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
@@ -1860,7 +1870,7 @@ PrefabInstance:
     - target: {fileID: 6872363562793689568, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6879395759833855787, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
@@ -1895,7 +1905,7 @@ PrefabInstance:
     - target: {fileID: 6966416864136315942, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8086103376343913438, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
@@ -1910,6 +1920,11 @@ PrefabInstance:
     - target: {fileID: 8086103376343913438, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
       propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8158305580923686796, guid: dad420e06c6231748b7dff40f4e836d8,
+        type: 3}
+      propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8477917217248741998, guid: dad420e06c6231748b7dff40f4e836d8,
