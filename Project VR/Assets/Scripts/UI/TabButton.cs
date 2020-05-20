@@ -16,7 +16,7 @@ public class TabButton : MonoBehaviour
     }
     private void Update()
     {
-        boxcollider.size = new Vector3(rectTransform.rect.width, rectTransform.rect.height, 0.02f);
+        boxcollider.size = new Vector3(rectTransform.rect.width, rectTransform.rect.height, 20f);
     }
     public void ActivateTab()
     {
