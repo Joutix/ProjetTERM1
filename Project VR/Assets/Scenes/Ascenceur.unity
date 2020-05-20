@@ -1822,6 +1822,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TabButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5073804172273092275, guid: dad420e06c6231748b7dff40f4e836d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5268385583253288683, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1852,6 +1857,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TabButton
       objectReference: {fileID: 0}
+    - target: {fileID: 6872363562793689568, guid: dad420e06c6231748b7dff40f4e836d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6879395759833855787, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -1881,6 +1891,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: TabButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6966416864136315942, guid: dad420e06c6231748b7dff40f4e836d8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8086103376343913438, guid: dad420e06c6231748b7dff40f4e836d8,
         type: 3}
