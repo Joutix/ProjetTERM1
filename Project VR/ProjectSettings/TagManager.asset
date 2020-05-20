@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ElevatorDown
   - ElevatorUp
+  - TabButton
   layers:
   - Default
   - TransparentFX

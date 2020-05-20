@@ -45,7 +45,11 @@ public class InteractManager : MonoBehaviour {
 			if(hit.collider.tag == "ElevatorDown"){
 				InteractUse("ElevatorDown");
 			}
-		}
+            if (hit.collider.tag == "TabButton")
+            {
+                objectInteract.GetComponent<TabButton>().ActivateTab();
+            }
+        }
 	}
 	
     private void InteractUse(string Call)
